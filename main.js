@@ -110,10 +110,10 @@ function login() {
         if (signUpArray[i].email.toLowerCase() == email.toLowerCase() && signUpArray[i].password.toLowerCase() == password.toLowerCase()) {
             localStorage.setItem('sessionUsername', signUpArray[i].name)
             if (baseURL == '/') {
-                location.replace('https://' + location.hostname + 'home.html')
+                location.replace('https://' + location.hostname + 'login/home.html')
 
             } else {
-                location.replace('https://' + location.hostname + 'home.html')
+                location.replace('https://' + location.hostname + 'login/home.html')
 
             }
         } else {
