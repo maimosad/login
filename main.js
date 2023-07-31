@@ -113,7 +113,7 @@ function login() {
                 location.replace('https://' + location.hostname + '/home.html')
 
             } else {
-                location.replace(baseURL + '/home.html')
+                location.replace('https://' + location.hostname + '/home.html')
 
             }
         } else {
